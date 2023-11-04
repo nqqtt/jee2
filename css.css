@@ -54,31 +54,44 @@
         }
 
 
+/* Styles for mobile menu */
+.mobile-menu {
+    display: none;
+    background-color: #6024c2;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+/* Media query to show/hide the mobile menu and change the navigation layout */
 @media (max-width: 768px) {
-    header {
-        font-size: 34px; /* Adjust font size for smaller screens */
-    }
-    nav {
-        display: block; /* Display the navigation links as a block for better mobile layout */
-    }
     nav ul {
-        text-align: center; /* Center-align the list items */
+        display: none;
     }
-    nav li {
-        display: block; /* Display list items as blocks for better mobile layout */
-        margin: 10px 0; /* Add some vertical spacing between list items */
+
+    .mobile-menu {
+        display: block;
     }
-    .center {
-        width: 100%; /* Make the image width 100% for smaller screens */
+
+    #nav-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    #nav-list li {
+        display: block;
+        margin: 10px 0;
     }
 }
-        .h {
-            color: white;
 
-        }
-
-        .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

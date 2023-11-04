@@ -93,5 +93,12 @@
         display: block;
         margin: 10px 0;
     }
+
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    max-width: none; /* Remove the max-width property */
+}
 }
 

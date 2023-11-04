@@ -52,6 +52,25 @@
             padding: 10px;
         }
 
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    nav {
+        display: block; /* Display the navigation links as a block for better mobile layout */
+    }
+    nav ul {
+        text-align: center; /* Center-align the list items */
+    }
+    nav li {
+        display: block; /* Display list items as blocks for better mobile layout */
+        margin: 10px 0; /* Add some vertical spacing between list items */
+    }
+    .center {
+        width: 100%; /* Make the image width 100% for smaller screens */
+    }
+}
         .h {
             color: white;
 

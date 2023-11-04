@@ -40,11 +40,12 @@
             font-weight: bold;
         }
 
-        .content {
-            flex-grow: 1;
-            padding: 20px;
-            text-align: center;
-        }
+      .content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%; /* Add this line to set the maximum width to 100% */
+}
 
         footer {
             background-color: #ff3b9d;

@@ -55,7 +55,7 @@
 
 @media (max-width: 768px) {
     header {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 34px; /* Adjust font size for smaller screens */
     }
     nav {
         display: block; /* Display the navigation links as a block for better mobile layout */

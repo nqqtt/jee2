@@ -5,6 +5,17 @@
     <title>my comic !!</title>
     <link rel="stylesheet" type="text/css" href="css.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+    <style> 
+        .image-row {
+            display: flex; /* Use flexbox for image rows */
+            justify-content: center; /* Center the images horizontally */
+            margin: 10px 0; /* Add some margin to separate rows */
+        }
+
+        img {
+            width: 100px;
+            margin: 10px;
+        }</style>
 </head>
 <body>
     <header>
@@ -21,10 +32,14 @@
         </ul>
     </nav>
 
-   <img src="sai.jpg" width=100px>
-     <img src="sai2.jpg" width=100px>
-     <img src="sai.jpg" width=100px>
-     <img src="sai2.jpg" width=100px>
+     <div class="image-row">
+        <img src="sai.jpg" width="100px">
+        <img src="sai2.jpg" width="100px">
+    </div>
+    <div class="image-row">
+        <img src="sai.jpg" width="100px">
+        <img src="sai2.jpg" width="100px">
+    </div>
 
 
     <footer class="h">

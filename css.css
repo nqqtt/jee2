@@ -40,6 +40,10 @@ body {
             font-weight: bold;
         }
 
+nav a:hover {
+  color: purple;
+}
+
         .content {
             flex-grow: 1;
             padding: 20px;
